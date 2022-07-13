@@ -1,0 +1,24 @@
+2022-07-05T17:07:08+00:00 CRITICAL Declaration of Theplus_Column_Responsive::register_controls($element, $section_id) must be compatible with Elementor\Controls_Stack::register_controls() di /Users/ujnana/Sites/solusiindonesia/wp-content/plugins/theplus_elementor_addon/modules/controls/group/plus-column-width.php pada baris 23
+
+2022-07-05T17:07:15+00:00 CRITICAL Declaration of Theplus_Column_Responsive::register_controls($element, $section_id) must be compatible with Elementor\Controls_Stack::register_controls() di /Users/ujnana/Sites/solusiindonesia/wp-content/plugins/theplus_elementor_addon/modules/controls/group/plus-column-width.php pada baris 23
+
+2022-07-05T17:08:13+00:00 CRITICAL Declaration of Theplus_Column_Responsive::register_controls($element, $section_id) must be compatible with Elementor\Controls_Stack::register_controls() di /Users/ujnana/Sites/solusiindonesia/wp-content/plugins/theplus_elementor_addon/modules/controls/group/plus-column-width.php pada baris 23
+
+2022-07-05T17:08:27+00:00 CRITICAL Declaration of Theplus_Column_Responsive::register_controls($element, $section_id) must be compatible with Elementor\Controls_Stack::register_controls() di /Users/ujnana/Sites/solusiindonesia/wp-content/plugins/theplus_elementor_addon/modules/controls/group/plus-column-width.php pada baris 23
+
+2022-07-05T17:24:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in /Users/ujnana/Sites/solusiindonesia/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /Users/ujnana/Sites/solusiindonesia/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/ujnana/Sites/solusiindonesia/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#2 /Users/ujnana/Sites/solusiindonesia/wp-includes/script-loader.php(2139): do_action('wp_print_footer...')
+#3 /Users/ujnana/Sites/solusiindonesia/wp-content/plugins/user-registration/includes/admin/class-ur-admin-welcome.php(208): wp_print_footer_scripts()
+#4 /Users/ujnana/Sites/solusiindonesia/wp-content/plugins/user-registration/includes/admin/class-ur-admin-welcome.php(78): UR_Admin_Welcome::setup_wizard_footer()
+#5 /Users/ujnana/Sites/solusiindonesia/wp-includes/class-wp-hook.php(307): UR_Admin_Welcome::welcome_page('')
+#6 /Users/ujnana/Sites/solusiindonesia/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/ujnana/Sites/solusiindonesia/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /Users/ujnana/Sites/solusiindonesia/wp-admin/admin.php(175): do_action('admin_init')
+#9 /Users/ujnana/Sites/solusiindonesia/wp-admin/index.php(10): require_once('/Users/ujnana/S...')
+#10 /Users/ujnana/.composer/vendor/laravel/valet/server.php(234): require('/Users/ujnana/S...')
+#11 {main}
+  thrown di /Users/ujnana/Sites/solusiindonesia/wp-includes/class-wp-hook.php pada baris 307
+

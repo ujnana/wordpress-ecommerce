@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?io96li');
+  src:  url('fonts/icomoon.eot?io96li#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?io96li') format('truetype'),
+    url('fonts/icomoon.woff?io96li') format('woff'),
+    url('fonts/icomoon.svg?io96li#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-manager-1:before {
+  content: "\e900";
+  color: #565656;
+}
+.icon-building-1:before {
+  content: "\e901";
+  color: #565656;
+}
+.icon-group-idea-1:before {
+  content: "\e902";
+  color: #565656;
+}
+.icon-praying-hand-1:before {
+  content: "\e903";
+  color: #565656;
+}
+.icon-handshake-1:before {
+  content: "\e904";
+  color: #565656;
+}
+.icon-certificate-1:before {
+  content: "\e905";
+  color: #565656;
+}
